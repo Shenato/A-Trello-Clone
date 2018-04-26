@@ -1,0 +1,29 @@
+{
+  "name": "horizonello",
+  "license": "MIT",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:horizons-school-of-technology/horizonello.git"
+  },
+  "dependencies": {
+    "@types/handlebars": "^4.0.37",
+    "body-parser": "1.15.0",
+    "express": "^4.13.4",
+    "express-handlebars": "3.0.0",
+    "handlebars": "^4.0.11",
+    "jquery-ui": "^1.12.1",
+    "jqueryui": "^1.11.1",
+    "underscore": "1.8.3"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "connect-browser-sync": "^2.1.0",
+    "nodemon": "^1.17.3",
+    "rimraf": "2.5.2"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "clean": "rimraf .tmp/"
+  }
+}
